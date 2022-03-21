@@ -48,11 +48,11 @@ function addStar() {
 
 Array(400).fill().forEach(addStar)
 
-//background
+//Background
 const spaceTexture = new THREE.TextureLoader().load('space.jpg');
 scene.background = spaceTexture;
 
-//moon
+//Moon
 const moonTexture = new THREE.TextureLoader().load('planet.jpg'); 
 const moonNormal = new THREE.TextureLoader().load('normal.jpg');
 
